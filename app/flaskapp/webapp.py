@@ -74,3 +74,6 @@ def unauthorized_handler():
 @app.route('/')
 def index():
     return '<h2>Welcome to Roger&#39;s place</h2>'
+
+if __name__ == '__main__':
+    app.run()
